@@ -185,7 +185,7 @@ I would like to thank Microverse for their continued support
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+
 
 - **What is the purpose of a portfolio?**
 
