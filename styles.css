@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
     padding: 0;
@@ -89,28 +90,8 @@ body {
     background-image: url('images/Illustration.png');
     background-repeat: no-repeat;
     height: 300px;
-    margin-top: -280px;
+    margin-top: -320px;
     background-position: right;    
     padding-right: 0;
 } 
-
-.recent-works {
-    padding: 120px 24px 120px 24px;
-}
-
-.recent-works h1 {
-    color: #1C1A19;
-    font-family: 'crete Round', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-}
-
-.gymnast {
-    background-image: url(images/pic.png);
-    background-repeat: no-repeat;
-    height: 237px;
-    margin-top: 80px;
-    background-position: center;
-
-}
 
