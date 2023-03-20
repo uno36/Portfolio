@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color: #3C3A39;
+    padding: 40px;
+    padding-bottom: 5px;
+    
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.navbar i {
+    color: #FFFFFF;
+    
+}
+
+.mobile-container {
+    background-color: #1C1A19;
+    height: 790px;
+    
+}
+
+.info {
+    padding: 100px 24px 120px 24px;
+}
+.intro {
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    color: #FF6B00;
+    
+}
+
+.skill {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 24px;
+    color: #FFFFFF;
+    
+}
+
+.bio {
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;    
+}
+
+.social-icons ul {
+    display: flex;
+    padding-left: 0;
+}
+.social-icons li, a {
+    color: #FFFFFF; 
+    list-style: none;  
+    margin-inline: 10px;
+    margin-left: 0;
+    font-size: larger; 
+    cursor: pointer;    
+}
+
+.social-icons li img:hover {
+    color: #FF6B00;
+}
+
+.social-icons a:hover {
+    color: #FF6B00;
+}
+
