@@ -4,94 +4,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
-    display: flex;
-    justify-content:space-between;
-    background-color: #3C3A39;
-    padding: 40px;
-    padding-bottom: 10px;
-    
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  padding: 40px;
+  padding-bottom: 10px;
 }
 
-.navbar a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+a:hover .social-icons {
+  color: #ff6b00;
+}
+
+a  {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .navbar i {
-    color: #FFFFFF;
-    
+  color: #fff;
 }
 
 .mobile-container {
-    background-color: #1C1A19;
-    height: 690px;
-    
+  background-color: #1c1a19;
+  height: 690px;
 }
 
 .info {
-    padding: 100px 24px 120px 24px;
-    
+  padding: 100px 24px 120px 24px;
 }
+
 .intro {
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 56px;
-    color: #FF6B00;
-    
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #ff6b00;
 }
 
 .skill {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    font-family: 24px;
-    color: #FFFFFF;
-    
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
 }
 
 .bio {
-    font-family: 'poppins',Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;    
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
 }
 
 .social-icons ul {
-    display: flex;
-    padding-left: 0;
+  display: flex;
+  padding-left: 0;
 }
-.social-icons li, a {
-    color: #FFFFFF; 
-    list-style: none;  
-    margin-inline: 10px;
-    margin-left: 0;
-    font-size: larger; 
-    cursor: pointer;    
+
+.social-icons li,
+a {
+  color: #fff;
+  list-style: none;
+  margin-inline: 10px;
+  margin-left: 0;
+  font-size: larger;
+  cursor: pointer;
 }
 
 .social-icons li img:hover {
-    color: #FF6B00;
-}
-
-.social-icons a:hover {
-    color: #FF6B00;
+  color: #ff6b00;
 }
 
 .first-page-deco-img {
-    background-image: url('images/Illustration.png');
-    background-repeat: no-repeat;
-    height: 300px;
-    margin-top: -320px;
-    background-position: right;    
-    padding-right: 0;
-} 
-
+  background-image: url('images/Illustration.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: -320px;
+  background-position: right;
+  padding-right: 0;
+}
