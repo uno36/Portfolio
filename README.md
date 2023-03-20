@@ -146,7 +146,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **linkers**
 - [ ] **visionary**
@@ -203,7 +202,7 @@ I would like to thank Microverse for their continued support
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-.navbar {
+.header {
   display: flex;
   justify-content: space-between;
   background-color: #3c3a39;
@@ -35,11 +35,11 @@ a {
 
 .mobile-container {
   background-color: #1c1a19;
-  height: 690px;
+  height: 650px;
 }
 
 .info {
-  padding: 100px 24px 120px 24px;
+  padding: 80px 24px 120px 24px;
 }
 
 .intro {
