@@ -220,11 +220,6 @@ li {
   padding: 50px 24px 50px 24px;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
 .About h1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 72px;
@@ -241,48 +236,37 @@ li {
 }
 
 .deco-img {
+  background-image: url("images/illustration-about-me-mobile.png");
+  background-repeat: no-repeat;
   height: 258px;
   margin-right: -23px;
   margin-top: -40px;
+  background-position: right;
 }
 
 .language {
+  margin-top: 100px;
   color: #fff;
   font-family: 'InaiMathi', Arial, Helvetica, sans-serif;
   font-style: bold;
-  font-size: 32px;
-  text-align: center;
-  margin-top: 120px;
   font-weight: 700;
-}
-
-.langs h3 {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: bold;
   font-size: 32px;
-  color: #fff;
   text-align: center;
 }
 
-.language-list,
-.frameworks-list,
-.skills-list {
+.lan,
+.frame,
+.Skill {
   color: #fff;
-  font-family: 'inter', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 400;
-  margin-bottom: 40px;
 }
 
-.lang-ul,
-.frame-ul,
-.skills-ul {
+.languages,
+.frameworks,
+.skills,
+.Skills,
+.framework {
   text-align: center;
-}
-
-.lang-unorderd,
-.frame-unorderd,
-.skills-unorderd {
-  display: inline-block;
-  text-align: left;
 }
