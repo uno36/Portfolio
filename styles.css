@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=InaiMathi&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
+a:hover .social-icons {
+  color: #ff6b00;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.navbar i {
+  color: #fff;
+}
+
+.mobile-container {
+  background-color: #1c1a19;
+  height: 650px;
+}
+
+.info {
+  padding: 80px 24px 120px 24px;
+}
+
+.intro {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #ff6b00;
+}
+
+.skill {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.bio {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.social-icons ul {
+  display: flex;
+  padding-left: 0;
+}
+
+.socials {
+  color: #fff;
+  list-style: none;
+  margin-inline: 10px;
+  margin-left: 0;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.social-icons li img:hover {
+  color: #ff6b00;
+}
+
+.first-page-deco-img {
+  background-image: url('images/Illustration.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: -320px;
+  background-position: right;
+  padding-right: 0;
+}
+
+.recent-works {
+  padding: 120px 24px 120px 24px;
+}
+
+.recent-works h1 {
+  color: #1c1a19;
+  font-family: 'crete Round', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.gymnast {
+  background-image: url(images/pic.png);
+  background-repeat: no-repeat;
+  height: 237px;
+  margin-top: 80px;
+}
+
+.recent-works h2 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #091e42;
+  font-weight: 400;
+}
+
+.recent-works p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #091e42;
+}
+
+.languages {
+  margin-left: -5px;
+}
+
+.languages ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.works-btn {
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #091e42;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #8993a4;
+  margin-inline: 2px;
+}
+
+.see,
+.resume {
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 17px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.projects-background {
+  background-image: url('images/projects-background.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 370px;
+  margin-top: 24px;
+}
+
+.background {
+  padding: 62px 13px 1px 13px;
+}
+
+.projects-background h2 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+.projects-background .para {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.project-btn {
+  margin-left: -10px;
+}
+
+.project-btn ul,
+li {
+  display: flex;
+  margin-inline: 5px;
+  padding-left: 0;
+}
+
+.projects-btn {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 12px 10px 12px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+}
+
+.projects-background li {
+  list-style: none;
+}
+
+.see-project {
+  width: 100%;
+  background-color: #ff6b00;
+  border: none;
+  padding: 20px;
+  font-family: 'Inter'Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 17px;
+  color: #fff;
+  margin-top: -10px;
+}
+
+.About {
+  background-color: #1c1a19;
+  margin-top: 50px;
+  padding: 50px 24px 50px 24px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.About h1 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.About p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #f4f5f7;
+  margin-bottom: 40px;
+}
+
+.deco-img {
+  height: 258px;
+  margin-right: -23px;
+  margin-top: -40px;
+}
+
+.language {
+  color: #fff;
+  font-family: 'InaiMathi', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 120px;
+  font-weight: 700;
+}
+
+.langs h3 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.language-list,
+.frameworks-list,
+.skills-list {
+  color: #fff;
+  font-family: 'inter', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.lang-ul,
+.frame-ul,
+.skills-ul {
+  text-align: center;
+}
+
+.lang-unorderd,
+.frame-unorderd,
+.skills-unorderd {
+  display: inline-block;
+  text-align: left;
+}
