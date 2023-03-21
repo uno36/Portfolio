@@ -267,14 +267,16 @@ li {
   margin-left: -45px;
 }
 
-.Skills {
-  margin-left: 40px;
-}
-
 .Skills,
 .framework {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: bold;
   font-size: 32px;
   color: #fff;
+  margin-left: -45px;
+}
+
+.myUL-frameworks li,
+.myUL-skills li {
+  justify-content: center;
 }
