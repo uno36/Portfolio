@@ -26,9 +26,7 @@
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-> the project is a summary of my skills and achievemnts
-
-**My portfolio** is 
+**My portfolio** is a summary of  my achievements
 
 ## 🛠 Built With <a name="built-with"></a>
 
