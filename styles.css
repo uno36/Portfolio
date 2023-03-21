@@ -272,3 +272,12 @@ li {
 .framework {
   text-align: center;
 }
+
+.frameworks,
+.skills {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
