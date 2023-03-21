@@ -220,11 +220,6 @@ li {
   padding: 50px 24px 50px 24px;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
 .About h1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 72px;
@@ -241,9 +236,12 @@ li {
 }
 
 .deco-img {
+  background-image: url("images/illustration-about-me-mobile.png");
+  background-repeat: no-repeat;
   height: 258px;
   margin-right: -23px;
   margin-top: -40px;
+  background-position: right;
 }
 
 .language {
