@@ -246,3 +246,29 @@ li {
   margin-top: -40px;
 }
 
+.language {
+  margin-top: 100px;
+  color: #fff;
+  font-family: 'InaiMathi', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+.lan,
+.frame,
+.Skill {
+  color: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.languages,
+.frameworks,
+.skills,
+.Skills,
+.framework {
+  text-align: center;
+}
