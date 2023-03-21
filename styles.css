@@ -18,6 +18,11 @@ body {
   padding-bottom: 10px;
 }
 
+.works-btn:hover {
+  color: red;
+  cursor: pointer;
+}
+
 a:hover .social-icons {
   color: #ff6b00;
 }
