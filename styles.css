@@ -93,6 +93,8 @@ a {
 
 .recent-works {
   padding: 120px 24px 120px 24px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .recent-works h1 {
@@ -103,7 +105,7 @@ a {
 }
 
 .gymnast {
-  background-image: url(images/pic.png);
+  background-image: url('images/pic.png');
   background-repeat: no-repeat;
   height: 237px;
   margin-top: 80px;
@@ -244,38 +246,35 @@ li {
   background-position: right;
 }
 
-.language {
+.myUL li {
   margin-top: 100px;
+  justify-content: center;
   color: #fff;
   font-family: 'InaiMathi', Arial, Helvetica, sans-serif;
   font-style: bold;
   font-weight: 700;
-  font-size: 32px;
-  text-align: center;
+  font-size: 22px;
+  margin-left: -45px;
 }
 
-.lan,
-.frame,
-.Skill {
+.myUL1 li {
+  justify-content: center;
+  margin-bottom: 40px;
   color: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 400;
+  margin-left: -45px;
 }
 
-.languages,
-.frameworks,
-.skills,
+.Skills {
+  margin-left: 40px;
+}
+
 .Skills,
 .framework {
-  text-align: center;
-}
-
-.frameworks,
-.skills {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: bold;
   font-size: 32px;
   color: #fff;
-  text-align: center;
 }
