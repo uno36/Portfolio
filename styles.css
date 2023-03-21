@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=InaiMathi&display=swap');
 
 body {
   padding: 0;
@@ -214,16 +215,17 @@ li {
 }
 
 .About {
-  margin-top: 50px;
-}
-
-.about-me {
-  padding: 50px 24px 50px 24px;
   background-color: #1c1a19;
-  height: 1801px;
+  margin-top: 50px;
+  padding: 50px 24px 50px 24px;
 }
 
-.about-me h1 {
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.About h1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 72px;
   color: #ff6b00;
@@ -231,7 +233,7 @@ li {
   font-weight: 400;
 }
 
-.about-me p {
+.About p {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #f4f5f7;
@@ -239,15 +241,9 @@ li {
 }
 
 .deco-img {
-  background-image: url('images/illustration-about-me-mobile.png');
-  background-repeat: no-repeat;
   height: 258px;
-  background-position: right;
-  margin-top: -1550px;
-}
-
-.flex {
-  padding: 5px 24px 10px 24px;
+  margin-right: -23px;
+  margin-top: -40px;
 }
 
 .language {
@@ -260,7 +256,7 @@ li {
   font-weight: 700;
 }
 
-.flex h3 {
+.langs h3 {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: bold;
   font-size: 32px;
@@ -279,26 +275,14 @@ li {
 }
 
 .lang-ul,
-.frame-ul {
-  text-align: center;
-}
-
-.lang-unorderd,
-.frame-unorderd {
-  display: inline-block;
-  text-align: left;
-}
-
-
+.frame-ul,
 .skills-ul {
   text-align: center;
 }
 
+.lang-unorderd,
+.frame-unorderd,
 .skills-unorderd {
   display: inline-block;
   text-align: left;
-}
-
-.skills {
-  color: #fff;
 }
