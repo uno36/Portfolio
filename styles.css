@@ -280,3 +280,89 @@ li {
 .myUL-skills li {
   justify-content: center;
 }
+
+.contact-form {
+  padding: 120px 24px 120px 24px;
+  
+}
+
+.contact-me {
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  color: #172B4D;
+  font-size: 32px;
+  font-style: bold;
+  text-align: center;
+}
+
+.name-field,
+.email-field {
+  border: 1px solid;
+  border-color: #DED8D7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 50px;
+  width: 98%;
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979493;
+  padding-left: 10px;
+
+
+}
+
+.text-area-field {
+  width: 98%;
+  background-color: #FBF8F7;
+  margin-top: 20px;
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  border: none;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.get {
+  display: flex;
+  justify-content: center;
+}
+.get-in-touch {
+  margin-top: 50px;
+  padding: 12px;
+  background-color: #ff6b00;
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+}
+
+.horizontal {
+  border: 1px solid #DFE1E6;
+  margin-top: -40px;
+}
+
+.social-icon ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+
+ .social i  {
+  color: #505F79;
+  list-style: none;
+  margin-inline: 7px;
+  font-size: x-large;
+ }
+
+ .line {
+  margin-top: 50px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+
+ }
