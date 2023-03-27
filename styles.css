@@ -214,7 +214,7 @@ li {
   background-color: #ff6b00;
   border: none;
   padding: 20px;
-  font-family: 'Inter'Arial, Helvetica, sans-serif;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
   font-style: bold;
   font-size: 17px;
   color: #fff;
@@ -226,7 +226,7 @@ li {
   background-color: #ff6b00;
   border: none;
   padding: 20px;
-  font-family: 'Inter'Arial, Helvetica, sans-serif;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
   font-style: bold;
   font-size: 17px;
   color: #fff;
@@ -393,4 +393,20 @@ li {
   justify-content: center;
 }
 
+.floats {
+  float: right;
+}
 
+.floats-ul {
+  display: flex;
+}
+
+.Float {
+  padding: 10px 12px;
+  width: 95px;
+  height: 40px;
+  background: rgba(22, 22, 22, 0.979);
+  border: none;
+  color: #fff;
+  font-family: 'Inter';
+}
