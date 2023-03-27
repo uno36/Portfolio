@@ -9,7 +9,10 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-
+.menu-list,
+.last-name {
+  display: none;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,7 +25,7 @@ a:hover .social-icons {
   color: #ff6b00;
 }
 
-a {
+.navbar-brand {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -69,7 +72,7 @@ a {
   padding-left: 0;
 }
 
-.socials {
+.socials a {
   color: #fff;
   list-style: none;
   margin-inline: 10px;
@@ -205,7 +208,19 @@ li {
 }
 
 .see-project {
-  width: 100%;
+  width: 327px;
+  background-color: #ff6b00;
+  border: none;
+  padding: 20px;
+  font-family: 'Inter'Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 17px;
+  color: #fff;
+  margin-top: -10px;
+}
+
+.sees-project {
+  width: 327px;
   background-color: #ff6b00;
   border: none;
   padding: 20px;
@@ -267,6 +282,24 @@ li {
   margin-left: -45px;
 }
 
+.myUL1 li {
+  justify-content: center;
+  margin-bottom: 40px;
+  color: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: -45px;
+}
+.myUL2 li {
+  justify-content: center;
+  margin-bottom: 40px;
+  color: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: -45px;
+}
 .Skills,
 .framework {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -306,7 +339,7 @@ li {
   font-family: 'Inter',Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: #979493;
+  color: #1a1919;
   padding-left: 10px;
 
 
@@ -366,3 +399,4 @@ li {
   justify-content: center;
 
  }
+
