@@ -9,10 +9,12 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
 .menu-list,
 .last-name {
   display: none;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -282,15 +284,6 @@ li {
   margin-left: -45px;
 }
 
-.myUL1 li {
-  justify-content: center;
-  margin-bottom: 40px;
-  color: #fff;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  margin-left: -45px;
-}
 .myUL2 li {
   justify-content: center;
   margin-bottom: 40px;
@@ -300,6 +293,7 @@ li {
   font-weight: 400;
   margin-left: -45px;
 }
+
 .Skills,
 .framework {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -316,12 +310,11 @@ li {
 
 .contact-form {
   padding: 120px 24px 120px 24px;
-  
 }
 
 .contact-me {
-  font-family: 'Inter',Arial, Helvetica, sans-serif;
-  color: #172B4D;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #172b4d;
   font-size: 32px;
   font-style: bold;
   text-align: center;
@@ -330,26 +323,24 @@ li {
 .name-field,
 .email-field {
   border: 1px solid;
-  border-color: #DED8D7;
+  border-color: #ded8d7;
   border-top: none;
   border-left: none;
   border-right: none;
   margin-top: 50px;
   width: 98%;
-  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #1a1919;
   padding-left: 10px;
-
-
 }
 
 .text-area-field {
   width: 98%;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   margin-top: 20px;
-  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-style: italic;
   border: none;
@@ -361,11 +352,12 @@ li {
   display: flex;
   justify-content: center;
 }
+
 .get-in-touch {
   margin-top: 50px;
   padding: 12px;
   background-color: #ff6b00;
-  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: #fff;
@@ -373,7 +365,7 @@ li {
 }
 
 .horizontal {
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   margin-top: -40px;
 }
 
@@ -381,22 +373,18 @@ li {
   display: flex;
   justify-content: center;
   list-style: none;
-  
 }
 
-
- .social i  {
-  color: #505F79;
+.social i {
+  color: #505f79;
   list-style: none;
   margin-inline: 7px;
   font-size: x-large;
- }
+}
 
- .line {
+.line {
   margin-top: 50px;
   height: 5px;
   display: flex;
   justify-content: center;
-
- }
-
+}
