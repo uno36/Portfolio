@@ -322,6 +322,23 @@ li {
   margin-left: -45px;
 }
 
+.get {
+  display: flex;
+  justify-content: center;
+}
+
+.get-in-touch {
+  margin-top: 50px;
+  padding: 12px;
+  background-color: #ff6b00;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+}
+
+
 .Skills,
 .framework {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
