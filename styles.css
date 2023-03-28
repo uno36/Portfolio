@@ -270,3 +270,44 @@ li {
 .framework {
   text-align: center;
 }
+
+.contact-form {
+  padding: 120px 24px 120px 24px;
+}
+
+.contact-me {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  font-size: 32px;
+  font-style: bold;
+  text-align: center;
+}
+
+.name-field,
+.email-field {
+  border: 1px solid;
+  border-color: #ded8d7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 50px;
+  width: 98%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1a1919;
+  padding-left: 10px;
+}
+
+
+.text-area-field {
+  width: 98%;
+  background-color: #fbf8f7;
+  margin-top: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  border: none;
+  padding-top: 10px;
+  padding-left: 10px;
+}
