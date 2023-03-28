@@ -308,13 +308,6 @@ li {
   justify-content: center;
 }
 
-
-
-
-
-
-
-
 .horizontal {
   border: 1px solid #dfe1e6;
   margin-top: -40px;
@@ -662,16 +655,6 @@ li {
   padding-left: 10px;
 }
 
-.myUL2 li {
-  justify-content: center;
-  margin-bottom: 40px;
-  color: #fff;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  margin-left: -45px;
-}
-
 .get {
   display: flex;
   justify-content: center;
@@ -686,49 +669,6 @@ li {
   font-weight: 700;
   color: #fff;
   border: none;
-}
-
-.Skills,
-.framework {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: bold;
-  font-size: 32px;
-  color: #fff;
-  margin-left: -45px;
-}
-
-.myUL-frameworks li,
-.myUL-skills li {
-  justify-content: center;
-}
-
-.horizontal {
-  border: 1px solid #dfe1e6;
-  margin-top: -40px;
-}
-
-.social-icon ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.social i {
-  color: #505f79;
-  list-style: none;
-  margin-inline: 7px;
-  font-size: x-large;
-}
-
-.fieldset {
-  border: none;
-}
-
-.line {
-  margin-top: 50px;
-  height: 5px;
-  display: flex;
-  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
