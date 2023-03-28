@@ -270,3 +270,15 @@ li {
 .framework {
   text-align: center;
 }
+
+.contact-form {
+  padding: 120px 24px 120px 24px;
+}
+
+.contact-me {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  font-size: 32px;
+  font-style: bold;
+  text-align: center;
+}
