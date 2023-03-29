@@ -688,3 +688,19 @@ li {
     margin-top: 150px;
   }
 }
+
+#hamburger,
+#first-page-deco-img,
+#see-project,
+#whitebg h2,
+#whitebg .para,
+#background h2,
+#deco-img,
+#line {
+  display: none;
+}
+
+.menu-list1 {
+  display: flex;
+  margin-right: 100px;
+}
