@@ -393,9 +393,7 @@ li {
   border: none;
 }
 
-
 @media only screen and (max-width: 768px) {
-
   .Desktop-heading,
   #my,
   .heading3,
@@ -463,7 +461,7 @@ li {
     background-image: url('images/Illustration-header@2x.png');
     background-repeat: no-repeat;
     height: 768px;
-    margin-top: -46%;
+    margin-top: -43%;
     background-position: right;
     background-size: 39%;
   }
@@ -643,15 +641,12 @@ li {
   }
 
   .contact-form {
+    padding: 120px 135px 180px 135px;
     display: grid;
     grid-template-columns: 0.6fr 1fr;
     padding-left: 140px;
     padding-right: 140px;
     gap: 40px;
-  }
-
-  .get {
-    justify-content: left;
   }
 
   .Initials {
@@ -670,9 +665,6 @@ li {
     line-height: 52px;
   }
 
-  .contact-form {
-    padding: 120px 135px 180px 135px;
-  }
 
   .get {
     justify-content: left;
@@ -696,10 +688,4 @@ li {
   .heading3 {
     margin-top: 150px;
   }
-
-  
-
-
-
-  
 }
