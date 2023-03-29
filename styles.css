@@ -10,8 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-.menu-list,
-.last-name {
+.menu-list {
   display: none;
 }
 
@@ -308,13 +307,6 @@ li {
   justify-content: center;
 }
 
-
-
-
-
-
-
-
 .horizontal {
   border: 1px solid #dfe1e6;
   margin-top: -40px;
@@ -342,6 +334,72 @@ li {
   height: 5px;
   display: flex;
   justify-content: center;
+}
+
+.contact-form {
+  padding: 40px 24px 80px 24px;
+}
+
+.contact-me {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #172b4d;
+  line-height: 52px;
+}
+
+.name-field,
+.email-field {
+  border: 1px solid;
+  border-color: #ded8d7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 50px;
+  width: 98%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1a1919;
+  padding-left: 10px;
+}
+
+.text-area-field {
+  width: 98%;
+  background-color: #fbf8f7;
+  margin-top: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  border: none;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.get {
+  display: flex;
+  justify-content: center;
+}
+
+.get-in-touch {
+  margin-top: 50px;
+  padding: 12px;
+  background-color: #ff6b00;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Desktop-heading,
+  #my,
+  .heading3,
+  .languages {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -403,7 +461,7 @@ li {
     background-image: url('images/Illustration-header@2x.png');
     background-repeat: no-repeat;
     height: 768px;
-    margin-top: -46%;
+    margin-top: -43%;
     background-position: right;
     background-size: 39%;
   }
@@ -583,6 +641,7 @@ li {
   }
 
   .contact-form {
+    padding: 120px 135px 180px 135px;
     display: grid;
     grid-template-columns: 0.6fr 1fr;
     padding-left: 140px;
@@ -590,24 +649,24 @@ li {
     gap: 40px;
   }
 
-  .get {
-    justify-content: left;
-  }
-
   .Initials {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
-  }
-
-  .name-field {
-    width: 95%;
+    width: 99%;
   }
 
   .contact-me {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
+    justify-content: left;
+    color: #172b4d;
+    line-height: 52px;
+  }
+
+  .get {
+    justify-content: left;
   }
 
   .hamburger,
@@ -619,5 +678,13 @@ li {
   .deco-img,
   .line {
     display: none;
+  }
+
+  .Desktop-heading {
+    margin-top: 110px;
+  }
+
+  .heading3 {
+    margin-top: 150px;
   }
 }
