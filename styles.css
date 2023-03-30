@@ -121,7 +121,16 @@ body {
   animation: fade-in 8s alternate;
 }
 
+@keyframes fade-in {
+  0% {
+    opacity: 1;
+    color: #ff6b00;
+  }
 
+  100% {
+    opacity: 0;
+  }
+}
 
 .projects-btn:hover {
   cursor: pointer;
@@ -139,6 +148,7 @@ body {
   transform: scale(1.05);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 
 
