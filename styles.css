@@ -149,10 +149,15 @@ body {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
-
+.sees-project:hover,
+.see-project:hover,
+.get-in-touch:hover,
+.resume:hover {
+  cursor: pointer;
+  background-color: #8993a4;
+  transform: scale(1.01);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 .social-icons ul {
   display: flex;
