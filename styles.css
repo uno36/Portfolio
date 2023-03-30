@@ -22,20 +22,36 @@ body {
   padding-bottom: 10px;
 }
 
-a:hover .social-icons {
-  color: #ff6b00;
-}
-
+/*animtions and transitions*/
 .navbar-brand {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease-in-out;
 }
+
+
+
+.socials i:hover,
+.social i:hover {
+  cursor: pointer;
+  color: #ff6b00;
+  transform: scale(1.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 
 .navbar i {
   color: #fff;
+}
+
+.navbar i:hover {
+  cursor: pointer;
+  color: #ff6b00;
+  transform: scale(1.9);
+
 }
 
 .mobile-container {
@@ -52,13 +68,36 @@ a:hover .social-icons {
   font-weight: 400;
   font-size: 56px;
   color: #ff6b00;
+  transition: all 0.5s ease-in;
+  animation: spin 1s linear 1;
 }
+
+
 
 .skill {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: #fff;
+  animation: color-change 0.5s infinite alternate;
+}
+
+@keyframes color-change {
+  0% {
+    color: #172b4d;
+  }
+
+  25% {
+    color: #172b4d;
+  }
+
+  75% {
+    color: #ff6b00;
+  }
+
+  100% {
+    font-size: 26px;
+  }
 }
 
 .bio {
@@ -66,7 +105,31 @@ a:hover .social-icons {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+  animation: fade-in 8s alternate;
 }
+
+
+
+.projects-btn:hover {
+  cursor: pointer;
+  background-color: #ff6b00;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.see:hover,
+.works-btn:hover {
+  cursor: pointer;
+  color: #f4f5f7;
+  background-color: #091e42;
+  transform: scale(1.05);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
 
 .social-icons ul {
   display: flex;
@@ -394,6 +457,7 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
+
   .Desktop-heading,
   #my,
   .heading3,
@@ -415,6 +479,17 @@ li {
     font-weight: 700;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin-inline: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /*animations and transitions*/
+  .menu:hover,
+  .menu:active,
+  .menu i:hover {
+    cursor: pointer;
+    color: #ff6b00;
+    transform: scale(1.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .info {
@@ -464,6 +539,7 @@ li {
     margin-top: -43%;
     background-position: right;
     background-size: 39%;
+
   }
 
   .recent-works {
@@ -532,6 +608,13 @@ li {
     font-size: 17px;
     color: #fff;
     margin-top: -10px;
+  }
+
+  #see-proj-btn:hover {
+    cursor: pointer;
+    background-color: #8993a4;
+    transform: scale(1.01);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   #bg2 {
@@ -660,7 +743,7 @@ li {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
-    justify-content: left;
+    text-align: left;
     color: #172b4d;
     line-height: 52px;
   }
