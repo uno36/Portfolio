@@ -8,6 +8,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .menu-list {
@@ -118,7 +119,7 @@ body {
   }
 
   100% {
-    font-size: 26px;
+    color: #8993a4;
   }
 }
 
@@ -321,6 +322,20 @@ body {
   color: #fff;
 }
 
+.gymnast {
+  transition: transform 0,3s ease-out;
+}
+
+.gymnast:hover {
+  transform: scale(1.05);
+}
+
+.projects-background:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: #1a1919;
+}
+
 .projects-background .para {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -438,6 +453,9 @@ li {
   display: flex;
   justify-content: center;
 }
+.contact {
+  padding: 1px 1px 10px 1px;
+}
 
 .contact-form {
   padding: 40px 24px 80px 24px;
@@ -483,6 +501,19 @@ li {
 .get {
   display: flex;
   justify-content: center;
+}
+
+.back {
+  margin-top: -40px;
+  margin-left: 50px;
+  
+}
+.back a {
+  text-decoration: none;
+  color: #ff6b00;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -562,7 +593,7 @@ li {
     height: 768px;
     margin-top: -43%;
     background-position: right;
-    background-size: 39%;
+    background-size: 49%;
   }
 
   .recent-works {
@@ -622,7 +653,7 @@ li {
   }
 
   #see-proj-btn {
-    width: 369px;
+    width: 370px;
     background-color: #ff6b00;
     border: none;
     padding: 20px;
@@ -630,7 +661,7 @@ li {
     font-style: bold;
     font-size: 17px;
     color: #fff;
-    margin-top: -10px;
+    margin-top: 200px;
   }
 
   #see-proj-btn:hover {
@@ -680,6 +711,24 @@ li {
     margin-top: 24px;
   }
 
+  .gymnast {
+    transition: transform 0,3s ease-out;
+  }
+
+  .gymnast:hover {
+    transform: scale(1.05);
+  }
+ 
+  #whitebg:hover,
+  #bg2:hover,
+  #bg3:hover,
+  #bg4:hover,
+  #bg5:hover,
+  #bg6:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: #1a1919;
+  }
   .About {
     padding: 130px 142px 130px 142px;
   }
