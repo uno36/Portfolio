@@ -279,6 +279,7 @@ body {
   background-repeat: no-repeat;
   height: 237px;
   margin-top: 80px;
+  transition: transform 0, 3s ease-out;
 }
 
 .recent-works h2 {
@@ -320,10 +321,6 @@ body {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 32px;
   color: #fff;
-}
-
-.gymnast {
-  transition: transform 0,3s ease-out;
 }
 
 .gymnast:hover {
@@ -453,6 +450,7 @@ li {
   display: flex;
   justify-content: center;
 }
+
 .contact {
   padding: 1px 1px 10px 1px;
 }
@@ -506,12 +504,12 @@ li {
 .back {
   margin-top: -40px;
   margin-left: 50px;
-  
 }
+
 .back a {
   text-decoration: none;
   color: #ff6b00;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 15px;
   cursor: pointer;
 }
@@ -622,6 +620,7 @@ li {
   .gymnast {
     background-image: url('images/gymnast.png');
     height: 448px;
+    transition: transform 0.3s ease-out;
   }
 
   .flex {
@@ -711,14 +710,11 @@ li {
     margin-top: 24px;
   }
 
-  .gymnast {
-    transition: transform 0,3s ease-out;
-  }
 
   .gymnast:hover {
     transform: scale(1.05);
   }
- 
+
   #whitebg:hover,
   #bg2:hover,
   #bg3:hover,
@@ -729,6 +725,7 @@ li {
     transform: scale(1.1);
     box-shadow: #1a1919;
   }
+
   .About {
     padding: 130px 142px 130px 142px;
   }
