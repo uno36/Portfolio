@@ -33,8 +33,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-brand:hover,
-.flex h1:hover {
+.navbar-brand:hover {
   cursor: pointer;
   color: #ff6b00;
   transform: scale(1.5);
@@ -302,7 +301,8 @@ body {
   font-weight: 400;
 }
 
-.grid h2:hover {
+.grid h2:hover,
+.flex h1:hover {
   cursor: pointer;
   color: #ff6b00;
   transform: scale(1.05);
