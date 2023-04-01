@@ -855,7 +855,7 @@ li {
   #whitebg .para,
   .deco-img,
   .line,
-  .projects-btn {
+  .btn-ul li {
     display: none;
   }
 
