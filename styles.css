@@ -92,7 +92,6 @@ body {
   color: #fff;
 }
 
-
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -110,7 +109,6 @@ body {
   color: #fff;
   animation: color-change 2s infinite alternate;
 }
-
 
 @keyframes color-change {
   0% {
@@ -337,12 +335,6 @@ body {
   padding: 62px 13px 1px 13px;
 }
 
-.projects-background h2 {
-  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
-  font-size: 32px;
-  color: #fff;
-}
-
 .gymnast:hover {
   transform: scale(1.05);
 }
@@ -380,21 +372,12 @@ li {
   padding: 50px 24px 50px 24px;
 }
 
-.About h1 {
-  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
-  font-size: 72px;
-  color: #ff6b00;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
 .About h1:hover {
   cursor: pointer;
   color: white;
   transform: scale(1.1);
   text-shadow: 0 0 10px rgba(251, 198, 40, 0.5);
 }
-
 
 .About p {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -630,6 +613,12 @@ li {
     width: 30%;
   }
 
+  .projects-background h2 {
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #fff;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: 1.6fr 1.3fr;
@@ -648,6 +637,14 @@ li {
     background-image: url('images/gymnast.png');
     height: 448px;
     transition: transform 0.3s ease-out;
+  }
+
+  .About h1 {
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    color: #ff6b00;
+    margin-bottom: 10px;
+    font-weight: 400;
   }
 
   .flex {
@@ -756,9 +753,7 @@ li {
     padding: 130px 142px 130px 142px;
   }
 
-  .About h1 {
-    font-size: 72px;
-  }
+
 
   .About p {
     font-size: 20px;
