@@ -108,7 +108,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
-  animation: color-change 0.5s infinite alternate;
+  animation: color-change 2s infinite alternate;
 }
 
 
