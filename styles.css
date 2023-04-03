@@ -526,7 +526,6 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
-
   .Desktop-heading,
   #my,
   .heading3 {
@@ -860,4 +859,5 @@ li {
   .heading3 {
     margin-top: 150px;
   }
+
 }
