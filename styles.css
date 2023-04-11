@@ -79,6 +79,12 @@ body {
   transform: scale(1.5);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+#open-menu {
+  color: #fff;
+  border: none;
+  background-color: #3c3a39;
+  font-size: 25px;
+}
 
 .social-icons {
   order: -1;
