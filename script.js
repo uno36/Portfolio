@@ -47,3 +47,10 @@ overlay.addEventListener('click', () => {
     closeModal(modal);
   });
 });
+
+closeModalButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal');
+    closeModal(modal);
+  });
+});
