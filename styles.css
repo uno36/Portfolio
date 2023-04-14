@@ -15,6 +15,13 @@ body {
   display: none;
 }
 
+#title {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 #close-menu {
   border: none;
   color: #67798e;
@@ -214,6 +221,10 @@ body {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+#works {
+  padding: 120px 24px 120px 24px;
+}
+
 .works-btn {
   padding: 10px 12px 10px 12px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -222,7 +233,6 @@ body {
   background-color: #fff;
   border: 1px solid;
   border-color: #8993a4;
-  margin-inline: 2px;
 }
 
 .see,
@@ -317,6 +327,14 @@ body {
   color: #ff6b00;
 }
 
+.projects-background h2,
+.projects-heading {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+}
+
 .first-page-deco-img {
   background-image: url('images/Illustration.png');
   background-repeat: no-repeat;
@@ -332,7 +350,7 @@ body {
   grid-template-columns: 1fr;
 }
 
-.recent-works h1 {
+.recent {
   color: #1c1a19;
   font-family: 'crete Round', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -346,7 +364,7 @@ body {
   margin-top: 80px;
 }
 
-.recent-works h2 {
+.recent1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 32px;
   color: #091e42;
@@ -369,10 +387,11 @@ body {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.recent-works p {
+.recentp {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #091e42;
+  width: 327px;
 }
 
 .languages {
@@ -388,7 +407,7 @@ body {
 .projects-background {
   background-image: url('images/projects-background.png');
   background-repeat: no-repeat;
-  width: 100%;
+  width: 327px;
   height: 370px;
   margin-top: 24px;
 }
@@ -765,23 +784,17 @@ li {
     background-size: 49%;
   }
 
-  .recent-works {
+  #works {
     padding: 250px 124px 100px 124px;
+  }
+
+  .recentp {
+    width: 100%;
   }
 
   .see {
     height: 50px;
     width: 30%;
-  }
-
-  .projects-background h2 {
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    color: #fff;
-  }
-
-  .background h2 {
-    color: #fff;
   }
 
   .grid {
