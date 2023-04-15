@@ -49,6 +49,10 @@ body {
   left: 0;
 }
 
+.project1 {
+  padding: 0 24px 24px ;
+}
+
 .mobile-nav a {
   display: block;
   width: 80%;
@@ -129,6 +133,10 @@ body {
 
 .info {
   padding: 80px 24px 120px 24px;
+}
+
+.see-proj {
+  padding: 0 24px 24px 24px;
 }
 
 .intro {
@@ -212,6 +220,7 @@ body {
   padding: 10px 12px 10px 12px;
   background-color: rgba(255, 255, 255, 0.24);
   border: none;
+  margin-left: -8px;
 }
 
 .projects-btn:hover {
@@ -219,10 +228,6 @@ body {
   background-color: #ff6b00;
   transform: scale(1.2);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-#works {
-  padding: 120px 24px 120px 24px;
 }
 
 .works-btn {
@@ -273,8 +278,8 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #fff;
-  margin-top: -10px;
-}
+  margin-top: 20px;
+  }
 
 .get-in-touch {
   margin-top: 50px;
@@ -333,6 +338,7 @@ body {
   font-size: 32px;
   color: #fff;
   font-weight: 400;
+  margin-top: -5px;
 }
 
 .first-page-deco-img {
@@ -345,12 +351,13 @@ body {
 }
 
 .recent-works {
-  padding: 120px 24px 120px 24px;
+  padding: 120px 24px  24px;
   display: grid;
   grid-template-columns: 1fr;
+  
 }
 
-.recent {
+.recent-works h1 {
   color: #1c1a19;
   font-family: 'crete Round', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -361,7 +368,9 @@ body {
   background-image: url('images/pic.png');
   background-repeat: no-repeat;
   height: 237px;
-  margin-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  
 }
 
 .recent1 {
@@ -369,7 +378,9 @@ body {
   font-size: 32px;
   color: #091e42;
   font-weight: 400;
+  margin-top: -40px;
 }
+
 
 .About h1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
@@ -398,7 +409,7 @@ body {
   margin-left: -5px;
 }
 
-.languages ul {
+.langu {
   display: flex;
   list-style: none;
   padding-left: 0;
@@ -431,8 +442,8 @@ body {
   color: #fff;
 }
 
-.project-btn {
-  margin-left: -10px;
+.projects-btn {
+  margin-inline: 5px;
 }
 
 .project-btn ul,
@@ -757,6 +768,10 @@ li {
     margin-top: -50px;
   }
 
+  .recent-works {
+    padding: 120px;
+  }
+
   .bio {
     font-size: 20px;
   }
@@ -784,10 +799,6 @@ li {
     background-size: 49%;
   }
 
-  #works {
-    padding: 250px 124px 100px 124px;
-  }
-
   .recentp {
     width: 100%;
   }
@@ -799,7 +810,9 @@ li {
 
   .grid {
     display: grid;
-    grid-template-columns: 1.6fr 1.3fr;
+    grid-template-columns: 1fr 0.75fr;
+    padding: 0 120px;
+    
   }
 
   .grid h2 {
@@ -815,6 +828,7 @@ li {
     background-image: url('images/gymnast.png');
     height: 448px;
     transition: transform 0.3s ease-out;
+    margin-top: -30px;
   }
 
   .About h1 {
@@ -836,9 +850,10 @@ li {
     margin-top: -20px;
   }
 
-  .grid-projects {
+  #grid-projects {
     display: grid;
     grid-template-columns: 0.75fr 0.75fr 0.86fr;
+    padding: 0 120px;
   }
 
   #whitebg {
@@ -857,7 +872,8 @@ li {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: #fff;
-    margin-top: 280px;
+    margin-top: 320px;
+    position: absolute;
   }
 
   #see-proj-btn:hover {
@@ -918,7 +934,10 @@ li {
   #bg5:hover,
   #bg6:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    background-image: url('images/whitebg.png');
+    
+
   }
 
   .About {
@@ -1029,57 +1048,10 @@ li {
     display: none;
   }
 
-  .Desktop-heading {
-    margin-top: 110px;
+  #grid-projects h2 {
+    margin-top: 60px;
   }
-
-  .heading3 {
-    margin-top: 150px;
-  }
-
-  .modal {
-    position: fixed;
-    top: 10%;
-    left: 15%;
-    transform: translate(-50px, -50px) scale(0);
-    width: 75%;
-    height: 631px;
-    transition: 200ms ease-in-out;
-    padding: 16px 16px 16px 16px;
-    border: 1px solid #dfe1e6;
-    background-color: #fff;
-    z-index: 98;
-  }
-
-  .mod-header1 {
-    margin-top: 4px;
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    line-height: 44px;
-    font-weight: 400;
-    color: #172b4d;
-  }
-
-  .mod-buttons {
-    margin-top: -10px;
-  }
-
-  .images-popup {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    margin-top: 50px;
-  }
-
-  .first {
-    line-height: 30px;
-  }
-
-  .mod-img1 {
-    width: 659px;
-    height: 448px;
-  }
-
-  #modal-btn {
-    margin-top: -53px;
+  #b3 h2 {
+    margin-top: 210px;
   }
 }
