@@ -50,7 +50,7 @@ body {
 }
 
 .project1 {
-  padding: 0 24px 24px ;
+  padding: 0 24px 24px;
 }
 
 .mobile-nav a {
@@ -279,7 +279,7 @@ body {
   font-size: 17px;
   color: #fff;
   margin-top: 20px;
-  }
+}
 
 .get-in-touch {
   margin-top: 50px;
@@ -354,7 +354,6 @@ body {
   padding: 120px 24px  24px;
   display: grid;
   grid-template-columns: 1fr;
-  
 }
 
 .recent-works h1 {
@@ -370,7 +369,6 @@ body {
   height: 237px;
   margin-top: 50px;
   margin-bottom: 60px;
-  
 }
 
 .recent1 {
@@ -380,7 +378,6 @@ body {
   font-weight: 400;
   margin-top: -40px;
 }
-
 
 .About h1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
@@ -440,10 +437,6 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #fff;
-}
-
-.projects-btn {
-  margin-inline: 5px;
 }
 
 .project-btn ul,
@@ -812,7 +805,6 @@ li {
     display: grid;
     grid-template-columns: 1fr 0.75fr;
     padding: 0 120px;
-    
   }
 
   .grid h2 {
@@ -936,8 +928,6 @@ li {
     cursor: pointer;
     transform: scale(1.05);
     background-image: url('images/whitebg.png');
-    
-
   }
 
   .About {
@@ -1051,6 +1041,7 @@ li {
   #grid-projects h2 {
     margin-top: 60px;
   }
+
   #b3 h2 {
     margin-top: 210px;
   }

@@ -143,3 +143,20 @@ for (let i = 0; i < projects.length; i += 1) {
   }
 }
 
+function valid() {
+  const email = document.getElementById('email').value;
+  const validatedEmail = email.toLowerCase();
+  if (validatedEmail === email) {
+    document.querySelector('.error').textContent = '';
+    return true;
+  }
+  document.querySelector('.error').textContent = 'Email address should always be in Lowercase.';
+  return false;
+}
+
+const form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
+  if (valid() === false) {
+    event.preventDefault();
+  }
+});
