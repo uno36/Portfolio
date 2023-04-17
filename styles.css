@@ -37,6 +37,14 @@ body {
   padding-top: 30px;
   transition: 0.4s;
 }
+#open-menu:hover{
+  color: #ff6b00;
+  transform:scale (1.05);
+}
+#close-menu:hover{
+  color: #ff6b00;
+  transform:scale (1.5);
+}
 
 .mobile-nav:hover {
   color: #ff6b00;
