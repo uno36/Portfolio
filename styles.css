@@ -37,6 +37,10 @@ body {
   padding-top: 30px;
   transition: 0.4s;
 }
+#open-menu:hover{
+  color: #ff6b00;
+  transform:scale (1.05);
+}
 
 .mobile-nav.is-active {
   left: 0;
