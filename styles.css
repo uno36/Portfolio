@@ -38,6 +38,11 @@ body {
   transition: 0.4s;
 }
 
+.mobile-nav:hover {
+  color: #ff6b00;
+  scale: 1.05;
+}
+
 .mobile-nav.is-active {
   left: 0;
 }
