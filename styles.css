@@ -37,13 +37,20 @@ body {
   padding-top: 30px;
   transition: 0.4s;
 }
-#open-menu:hover{
-  color: #ff6b00;
-  transform:scale (1.05);
+
+#open-menu {
+  color: #fff;
+  border: none;
+  background-color: #3c3a39;
+  font-size: 25px;
 }
-#close-menu:hover{
+
+#open-menu:hover {
   color: #ff6b00;
-  transform:scale (1.5);
+}
+
+#close-menu:hover {
+  color: #ff6b00;
 }
 
 .mobile-nav:hover {
@@ -92,13 +99,6 @@ body {
   color: #ff6b00;
   transform: scale(1.5);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-#open-menu {
-  color: #fff;
-  border: none;
-  background-color: #3c3a39;
-  font-size: 25px;
 }
 
 .social-icons {
