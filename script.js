@@ -143,20 +143,22 @@ for (let i = 0; i < projects.length; i += 1) {
   }
 }
 
-function valid() {
-  const email = document.getElementById('email').value;
-  const validatedEmail = email.toLowerCase();
-  if (validatedEmail === email) {
-    document.querySelector('.error').textContent = '';
-    return true;
-  }
-  document.querySelector('.error').textContent = 'Email address should always be in Lowercase.';
-  return false;
-}
+const emailInput = document.getElementById('email');
+const emailError = document.getElementById('email-error');
 
-const form = document.querySelector('form');
-form.addEventListener('submit', (event) => {
-  if (valid() === false) {
-    event.preventDefault();
+emailInput.addEventListener('input', () => {
+  const email = emailInput.value;
+  if (email.toLowerCase() === email) {
+    emailError.textContent = 'Email must be in uppercase';
+  } else {
+    emailError.textContent = '';
+  }
+});
+
+document.querySelector('form').addEventListener('submit', (e) => {
+  const email = emailInput.value;
+  if (email.toLowerCase() === email) {
+    e.preventDefault();
+    emailError.textContent = 'Email must be in uppercase';
   }
 });
