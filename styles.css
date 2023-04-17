@@ -41,6 +41,10 @@ body {
   color: #ff6b00;
   transform:scale (1.05);
 }
+#close-menu:hover{
+  color: #ff6b00;
+  transform:scale (1.5);
+}
 
 .mobile-nav.is-active {
   left: 0;
