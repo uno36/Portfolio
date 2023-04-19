@@ -278,7 +278,7 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 38px;
   }
 
 .get-in-touch {
@@ -348,13 +348,6 @@ body {
   margin-top: -320px;
   background-position: right;
   padding-right: 0;
-}
-
-.recent-works {
-  padding: 120px 24px  24px;
-  display: grid;
-  grid-template-columns: 1fr;
-  
 }
 
 .recent-works h1 {
@@ -772,6 +765,10 @@ li {
     padding: 120px;
   }
 
+  .recent1 {
+    margin-top: -70px;
+  }
+
   .bio {
     font-size: 20px;
   }
@@ -810,8 +807,8 @@ li {
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 0.75fr;
-    padding: 0 120px;
+    grid-template-columns: 1fr 0.8fr;
+    margin-top: 120px;
     
   }
 
@@ -850,18 +847,13 @@ li {
     margin-top: -20px;
   }
 
-  #grid-projects {
-    display: grid;
-    grid-template-columns: 0.75fr 0.75fr 0.86fr;
-    padding: 0 120px;
-  }
-
   #whitebg {
     background-image: url('images/whitebg.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 435px;
     margin-top: 12px;
+    
   }
 
   #see-proj-btn {
@@ -927,7 +919,7 @@ li {
     transform: scale(1.05);
   }
 
-  #whitebg:hover,
+  /* #whitebg:hover,
   #bg2:hover,
   #bg3:hover,
   #bg4:hover,
@@ -938,7 +930,7 @@ li {
     background-image: url('images/whitebg.png');
     
 
-  }
+  } */
 
   .About {
     padding: 130px 142px 130px 142px;
@@ -1054,4 +1046,8 @@ li {
   #b3 h2 {
     margin-top: 210px;
   }
-}
+
+  
+  
+
+  }

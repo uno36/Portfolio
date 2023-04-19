@@ -18,128 +18,169 @@ menuItems.forEach((item) => {
   });
 });
 
-const projects = [
+const cards = [
   {
-    img: 'images/gymnast.png',
-    title: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tags: ['CSS', 'HTML', 'Bootstrap', 'RUby'],
-    button: 'See Project',
+    id: 1,
+    title1: 'Multi Post Stories',
+    title2: 'Keeping track of hundreds  of components website',
+    title3: 'Profesional Art Printing Data',
+    title4: 'Data Dashboard Healthcare',
+    title5: 'Website Portfolio',
+    title6: 'Profesional Art Printing Data More',
+    tags: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    img1: 'images/Snapshoot-Portfolio.png',
+    img2: 'images/Snapshoot-Portfolio.png',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    seelive: '',
+    seesource: '',
   },
   {
-    title: 'Professional Art Printing Data',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tags: ['HTML', 'Bootstrap', 'RUby'],
-    button: 'See Project',
+    id: 2,
+    title: 'My Recent Works',
+    img1: 'images/pic.png',
+    img2: 'images/gymnst.png',
+    heading: 'Multi-Post Stories',
+    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    tags: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    button: 'see project',
   },
   {
-    title: 'Professional Art Printing Data',
-    title1: 'Data Dashboard Healthcare',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tags: ['HTML', 'Bootstrap', 'RUby'],
-    button: 'See Project',
+    id: 3,
+    img1: 'images/projects-backgound.png',
+    img2: 'images/whitebg.png',
+    title: 'Profesional Art Printing Data',
+    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tags: ['HTML', 'Bootstrap', 'Ruby'],
+    button: 'see project',
   },
   {
-    title: 'Professional Art Printing Data',
-    title1: 'Website Potfolio',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tags: ['HTML', 'Bootstrap', 'RUby'],
-    button: 'See Project',
+    id: 4,
+    img1: 'images/projects-backgound.png',
+    img2: 'images/bg2.png',
+    title1: 'Profesional Art Printing Data',
+    title2: 'Data Dashboard Healthcare',
+    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tags: ['HTML', 'Bootstrap', 'Ruby'],
+    button: 'see project',
   },
   {
-    title: 'Professional Art Printing Data',
-    title1: 'Profesional Art Printing Data More',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tags: ['HTML', 'Bootstrap', 'RUby'],
-    button: 'See Project',
+    id: 5,
+    img1: 'images/projects-backgound.png',
+    img2: 'images/bg3.png',
+    title1: 'Profesional Art Printing Data',
+    title2: 'Website Portfolio',
+    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tags: ['HTML', 'Bootstrap', 'Ruby'],
+    button: 'see project',
   },
   {
-    title: 'Professional Art Printing Data',
-    title1: 'Data Dashboard Healthcare',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tags: ['HTML', 'Bootstrap', 'RUby'],
-    button: 'See Project',
+    id: 6,
+    img1: 'images/projects-backgound.png',
+    img2: 'images/bg4.png',
+    title1: 'Profesional Art Printing Data',
+    title2: 'Profesional Art Printing Data More',
+    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tags: ['HTML', 'Bootstrap', 'Ruby'],
+    button: 'see project',
   },
   {
-    title: 'Professional Art Printing Data',
-    title1: 'Website Portfolio',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tags: ['HTML', 'Bootstrap', 'RUby'],
-    button: 'See Project',
+    id: 7,
+    img1: 'images/projects-backgound.png',
+    img2: 'images/bg5.png',
+    title1: 'Profesional Art Printing Data',
+    title2: 'Data Dashboard Healthcare',
+    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tags: ['HTML', 'Bootstrap', 'Ruby'],
+    button: 'see project',
+  },
+  {
+    id: 8,
+    img1: 'images/projects-backgound.png',
+    img2: 'images/bg6.png',
+    title1: 'Profesional Art Printing Data',
+    title2: 'Website Portfolio',
+    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tags: ['HTML', 'Bootstrap', 'Ruby'],
+    button: 'see project',
   },
 ];
 
-const projectsContainer = document.getElementById('works');
-
-const projectsGrid = document.getElementById('grid-projects');
-
-for (let i = 0; i < projects.length; i += 1) {
-  const project = projects[i];
-
-  if (i === 0) {
-    const projectHTML = `
-      <div class="project1">
+function displayCard(card) {
+  const worksElement = document.getElementById('works');
+  // create the card HTML
+  const cardHTML = `
+    <div class="recent-works">
+      <div class="flex">
+        <h1>${card.title}</h1>
+        <hr class="hor" >
+      </div>
       <div class="grid">
-        <div>
-        ${project.img ? `<img src="${project.img}" alt="${project.title}" class="gymnast">` : ''}
-        </div>
-        <div>
-        <h2 class="recent1">${project.title}</h2>
-        <p class="recentp" >${project.description}</p>
-        <ul class="langu">
-          ${project.tags.map((tag) => `<li class="works-btn">${tag}</li>`).join('')}
-        </ul>
-        <button class="see">${project.button}</button>
-        </div>
-      </div>
-      </div>
-    `;
-
-    projectsContainer.innerHTML += projectHTML;
-  } else if (i === 1) {
-    const project1HTML = `
-      <div class="grid-projects">
-      <div class="see-proj">
-        <div class="projects-background" id="whitebg">  
-        <button class="sees-project" id="see-proj-btn">${project.button}</button>
-                    
-        </div>
-      </div>  
-      `;
-    const projectElement = document.getElementById(`project-${i}`);
-    projectElement.addEventListener('mouseenter', () => {
-      const imageElement = document.getElementById(`project-img-${i}`);
-      const buttonElement = document.getElementById(`see-proj-btn-${i}`);
-      imageElement.classList.add('hover');
-      buttonElement.classList.add('hover');
-    });
-
-    projectElement.addEventListener('mouseleave', () => {
-      const imageElement = document.getElementById(`project-img-${i}`);
-      const buttonElement = document.getElementById(`see-proj-btn-${i}`);
-      imageElement.classList.remove('hover');
-      buttonElement.classList.remove('hover');
-    });
-
-    projectsGrid.innerHTML += project1HTML;
-  } else {
-    const projectHTML = `
-      <div class="see-proj">
-        <div class="projects-background" id="bg${i}"> 
-          <div class="background">
-            <h2 class="projects-heading">${project.title}</h2>
-            ${project.title1 ? `<h2 class="Desktop-heading">${project.title1}</h2>` : ''}
-            <p class="para">${project.description}</p>
-            <div class="project-btn">
-              <ul>${project.tags.map((tag) => `<li class="projects-btn">${tag}</li>`).join('')}</ul>
-            </div>
-          </div>  
-        </div>
-        <button class="see-project">${project.button}</button>
-      </div>
-    `;
-
-    projectsGrid.innerHTML += projectHTML;
-  }
+        <div class="gymnast"></div>
+        <div>     
+          <h2 class="recent1">${card.heading}</h2>
+          <p class="recentp">${card.description1}</p>
+          <div class="languages">
+            <ul class="langu">
+              ${card.tags.map((tag) => `<li><button class="works-btn" type="button">${tag}</button></li>`).join('')}
+            </ul>
+          </div>
+          <button class="see">${card.button}</button>
+        </div>    
+  `;
+  // add the card HTML to the "works" element
+  worksElement.innerHTML = cardHTML;
 }
+displayCard(cards[1]);
 
+const projects = document.querySelector('.recent');
+projects.style.display = 'grid';
+projects.style.gridTemplateColumns = 'repeat(3, 1fr)';
+
+cards.forEach((value, index) => {
+  const div = document.createElement('div');
+  div.id = index;
+
+  if (index === 2) {
+    div.innerHTML = `
+      <div class="see-proj">
+        <div class="projects-background" id="whitebg"> 
+          <div class="background">
+            <h2 class="projects-heading">${value.title}</h2>
+            <p class="para">${value.description1}</p>
+            <div class="project-btn">
+              <ul class="btn-ul">
+                ${value.tags.map((tag) => `<li><button class="projects-btn" type="button">${tag}</button></li>`).join('')}
+              </ul>
+            </div>
+          </div>
+          <button class="sees-project" id="see-proj-btn">${value.button}</button>
+        </div>
+      </div>
+    `;
+  } else if (index >= 3 && index <= 7) {
+    div.className = 'card-2';
+    div.innerHTML = `
+      <div class="recent-works2">
+        <div class="see-proj">
+          <div class="projects-background" id="bg${index - 1}"> 
+            <div class="background">
+              <h2 class="projects-heading">${value.title1}</h2>
+              <h2 class="Desktop-heading">${value.title2}</h2>
+              <p class="para">${value.description1}</p>
+              <div class="project-btn">
+                <ul class="project-btn">
+                  ${value.tags.map((tag) => `<li><button class="projects-btn" type="button">${tag}</button></li>`).join('')}
+                </ul>
+              </div>
+            </div>
+            <button class="see-project">${value.button}</button>
+          </div> 
+        </div>
+      </div>
+    `;
+  }
+
+  projects.appendChild(div);
+});
