@@ -143,22 +143,13 @@ for (let i = 0; i < projects.length; i += 1) {
   }
 }
 
-const emailInput = document.getElementById('email');
-const emailError = document.getElementById('email-error');
-
-emailInput.addEventListener('input', () => {
-  const email = emailInput.value;
-  if (email.toLowerCase() === email) {
-    emailError.textContent = 'Email must be in uppercase';
-  } else {
-    emailError.textContent = '';
-  }
-});
-
-document.querySelector('form').addEventListener('submit', (e) => {
-  const email = emailInput.value;
-  if (email.toLowerCase() === email) {
+const form = document.getElementById('validation');
+const email = document.getElementById('email');
+const lowerCaseRegex = /[A-Z]/;
+form.addEventListener('submit', (e) => {
+  if (lowerCaseRegex.test(email.value.trim())) {
     e.preventDefault();
-    emailError.textContent = 'Email must be in uppercase';
+    const errorMessage = document.querySelector('small');
+    errorMessage.classList.remove('hidden');
   }
 });
