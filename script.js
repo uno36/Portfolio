@@ -107,34 +107,7 @@ const cards = [
   },
 ];
 
-function displayCard(card) {
-  const worksElement = document.getElementById('works');
-  // create the card HTML
-  const cardHTML = `
-    <div class="recent-works">
-      <div class="flex">
-        <h1>${card.title}</h1>
-        <hr class="hor" >
-      </div>
-      <div class="grid">
-        <div class="gymnast"></div>
-        <div>     
-          <h2 class="recent1">${card.heading}</h2>
-          <p class="recentp">${card.description1}</p>
-          <div class="languages">
-            <ul class="langu">
-              ${card.tags.map((tag) => `<li><button class="works-btn" type="button">${tag}</button></li>`).join('')}
-            </ul>
-          </div>
-          <button class="see">${card.button}</button>
-        </div>    
-  `;
-  // add the card HTML to the "works" element
-  worksElement.innerHTML = cardHTML;
-}
-displayCard(cards[1]);
-
-const projects = document.querySelector('.recent');
+const projects = document.querySelector('#works');
 projects.style.display = 'grid';
 projects.style.gridTemplateColumns = 'repeat(3, 1fr)';
 
