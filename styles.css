@@ -50,7 +50,7 @@ body {
 }
 
 .project1 {
-  padding: 0 24px 24px ;
+  padding: 0 24px 24px;
 }
 
 .mobile-nav a {
@@ -153,6 +153,10 @@ body {
   color: #fff;
 }
 
+#works {
+  padding: 0 24px;
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -238,7 +242,10 @@ body {
   background-color: #fff;
   border: 1px solid;
   border-color: #8993a4;
+
 }
+
+
 
 .see,
 .resume {
@@ -267,7 +274,7 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #fff;
-  margin-top: -10px;
+
 }
 
 .sees-project {
@@ -279,7 +286,7 @@ body {
   font-size: 17px;
   color: #fff;
   margin-top: 38px;
-  }
+}
 
 .get-in-touch {
   margin-top: 50px;
@@ -363,7 +370,7 @@ body {
   height: 237px;
   margin-top: 50px;
   margin-bottom: 60px;
-  
+
 }
 
 .recent1 {
@@ -399,13 +406,13 @@ body {
 }
 
 .languages {
-  margin-left: -5px;
+  margin-left: -45px;
 }
 
 .langu {
   display: flex;
   list-style: none;
-  padding-left: 0;
+
 }
 
 .projects-background {
@@ -435,8 +442,14 @@ body {
   color: #fff;
 }
 
+#pro-btn,
+#pro-btn1 {
+  margin-left: -10px;
+}
+
 .projects-btn {
   margin-inline: 5px;
+
 }
 
 .project-btn ul,
@@ -690,7 +703,7 @@ li {
 }
 
 #overlay {
-  position: fixed;
+  position: ;
   opacity: 0;
   top: 0;
   left: 0;
@@ -699,6 +712,7 @@ li {
   transition: 200ms ease-in-out;
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.5);
+  
 }
 
 #overlay.active {
@@ -706,7 +720,14 @@ li {
   pointer-events: all;
 }
 
+.background1 {
+  position: absolute;
+  margin: 40px;
+
+}
+
 @media only screen and (max-width: 768px) {
+
   .Desktop-heading,
   #my,
   .heading3,
@@ -803,13 +824,14 @@ li {
   .see {
     height: 50px;
     width: 30%;
+
   }
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 0.8fr;
+    grid-template-columns: 1fr 0.75fr;
     margin-top: 120px;
-    
+
   }
 
   .grid h2 {
@@ -847,13 +869,12 @@ li {
     margin-top: -20px;
   }
 
-  #whitebg {
+  #bg1 {
     background-image: url('images/whitebg.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 435px;
     margin-top: 12px;
-    
   }
 
   #see-proj-btn {
@@ -864,7 +885,7 @@ li {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: #fff;
-    margin-top: 320px;
+    margin-top: 280px;
     position: absolute;
   }
 
@@ -881,6 +902,7 @@ li {
     width: 100%;
     height: 425px;
     margin-top: 24px;
+
   }
 
   #bg3 {
@@ -918,19 +940,6 @@ li {
   .gymnast:hover {
     transform: scale(1.05);
   }
-
-  /* #whitebg:hover,
-  #bg2:hover,
-  #bg3:hover,
-  #bg4:hover,
-  #bg5:hover,
-  #bg6:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    background-image: url('images/whitebg.png');
-    
-
-  } */
 
   .About {
     padding: 130px 142px 130px 142px;
@@ -1036,18 +1045,72 @@ li {
   #open-menu,
   .mod-img,
   .mod-header,
-  .p {
+  .p,
+  .heading1,
+  #p,
+  #h,
+  #pro-btn1 {
     display: none;
   }
 
   #grid-projects h2 {
     margin-top: 60px;
   }
+
   #b3 h2 {
     margin-top: 210px;
   }
 
-  
-  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -150px;
+    padding: 0 90px;
+  }
+
+  #d-heading2 {
+    margin-top: 120px;
+  }
+
+  #d-heading {
+    margin-top: 70px;
+  }
+
+  .para {
+    margin-right: 40px;
+  }
+
+  .modal {
+    width: 80%;
+    height: 631px;
+    top: 13%;
+    left: 15%;
 
   }
+
+  .images-popup {
+    display: grid;
+    grid-template-columns: 1fr 0.80fr;
+  }
+
+  #modal-btn {
+    margin-top: 40px;
+    
+  }
+
+  .mod-para {
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: -20px;
+  }
+
+  .mod-header1 {
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+}
