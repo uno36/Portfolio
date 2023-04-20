@@ -225,6 +225,14 @@ body {
   background-color: rgba(255, 255, 255, 0.24);
   border: none;
   margin-left: -8px;
+  margin-inline: 5px;
+}
+
+.project-btn ul,
+li {
+  display: flex;
+  margin-inline: 5px;
+  padding-left: 0;
 }
 
 .projects-btn:hover {
@@ -242,10 +250,7 @@ body {
   background-color: #fff;
   border: 1px solid;
   border-color: #8993a4;
-
 }
-
-
 
 .see,
 .resume {
@@ -274,7 +279,6 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #fff;
-
 }
 
 .sees-project {
@@ -370,7 +374,6 @@ body {
   height: 237px;
   margin-top: 50px;
   margin-bottom: 60px;
-
 }
 
 .recent1 {
@@ -380,7 +383,6 @@ body {
   font-weight: 400;
   margin-top: -40px;
 }
-
 
 .About h1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
@@ -412,7 +414,6 @@ body {
 .langu {
   display: flex;
   list-style: none;
-
 }
 
 .projects-background {
@@ -445,18 +446,6 @@ body {
 #pro-btn,
 #pro-btn1 {
   margin-left: -10px;
-}
-
-.projects-btn {
-  margin-inline: 5px;
-
-}
-
-.project-btn ul,
-li {
-  display: flex;
-  margin-inline: 5px;
-  padding-left: 0;
 }
 
 .projects-background li {
@@ -703,7 +692,6 @@ li {
 }
 
 #overlay {
-  position: ;
   opacity: 0;
   top: 0;
   left: 0;
@@ -712,7 +700,6 @@ li {
   transition: 200ms ease-in-out;
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.5);
-  
 }
 
 #overlay.active {
@@ -721,13 +708,10 @@ li {
 }
 
 .background1 {
-  position: absolute;
   margin: 40px;
-
 }
 
 @media only screen and (max-width: 768px) {
-
   .Desktop-heading,
   #my,
   .heading3,
@@ -824,14 +808,12 @@ li {
   .see {
     height: 50px;
     width: 30%;
-
   }
 
   .grid {
     display: grid;
     grid-template-columns: 1fr 0.75fr;
     margin-top: 120px;
-
   }
 
   .grid h2 {
@@ -902,7 +884,6 @@ li {
     width: 100%;
     height: 425px;
     margin-top: 24px;
-
   }
 
   #bg3 {
@@ -1032,6 +1013,10 @@ li {
     justify-content: left;
   }
 
+  .para {
+    margin-right: 40px;
+  }
+
   .hamburger,
   .first-page-deco-img,
   .see-project,
@@ -1076,26 +1061,20 @@ li {
     margin-top: 70px;
   }
 
-  .para {
-    margin-right: 40px;
-  }
-
   .modal {
     width: 80%;
     height: 631px;
     top: 13%;
     left: 15%;
-
   }
 
   .images-popup {
     display: grid;
-    grid-template-columns: 1fr 0.80fr;
+    grid-template-columns: 1fr 0.8fr;
   }
 
   #modal-btn {
     margin-top: 40px;
-    
   }
 
   .mod-para {
@@ -1109,8 +1088,7 @@ li {
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
-
 }
