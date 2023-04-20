@@ -706,6 +706,21 @@ li {
   pointer-events: all;
 }
 
+.error {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ff6b00;
+}
+
+.error.active {
+  display: block;
+}
+
+.error.valid {
+  color: #ff6b00;
+  border: none;
+}
+
 @media only screen and (max-width: 768px) {
   .Desktop-heading,
   #my,
