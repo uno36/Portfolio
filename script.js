@@ -271,3 +271,4 @@ closeModalButtons.forEach((button) => {
     closeModal(modal);
   });
 });
+
