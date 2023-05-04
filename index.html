@@ -8,23 +8,33 @@
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
+
 <body>
     <header class="header">
         <a href="#" class="navbar-brand"> My logo</a>
-    <nav class="navbar">
-        <div class="hamburger">        
-            <i class="fa fa-bars" class="menu-icon"></i>
-        </div>
-        
-        <ul class="menu-list">
+    <nav class="navbar"> 
+        <button id="open-menu" class="fa-solid fa-bars" ></button>      
+        <ul class="menu-list" id = "menu-items">
             <li><a href="" class="menu">Portfolio</a></li>
             <li><a href="#about" class="menu">About</a></li>
             <li><a href="#contact" class="menu">Contact</a></li>
             <li><a href="" class="menu"><i class="fa fa-envelope-o envelope"></i></a></li>
+            
         </ul> 
+        
+        <nav class="mobile-nav">
+            <button id="close-menu" class="fa-solid fa-xmark" ></button>
+            <ul>
+                <a href="#Portfolio" id="mobile-menu">Portfolio</a>
+                <a href="#about" id="mobile-menu">About</a>
+                <a href="#contact" id="mobile-menu">Contact</a>
+            </ul>
+            
+        </nav>
              
     </nav>
     </header>
+    
 
     <section class="Mobile-view">
         <div class="mobile-container">
@@ -307,7 +317,8 @@ don't hesitate to contact me.
     </footer>
 
 </section>
-
+<script src="https://kit.fontawesome.com/e0661bd0f3.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
 

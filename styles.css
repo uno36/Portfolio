@@ -15,6 +15,67 @@ body {
   display: none;
 }
 
+#close-menu {
+  border: none;
+  color: #67798e;
+  background-color: #3c3a39;
+  font-size: 25px;
+  margin-right: 30px;
+  float: right;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-color: #3c3a39;
+  padding-top: 30px;
+  transition: 0.4s;
+}
+
+#open-menu {
+  color: #fff;
+  border: none;
+  background-color: #3c3a39;
+  font-size: 25px;
+}
+
+#open-menu:hover {
+  color: #ff6b00;
+}
+
+#close-menu:hover {
+  color: #ff6b00;
+}
+
+.mobile-nav:hover {
+  color: #ff6b00;
+  scale: 1.05;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  width: 80%;
+  text-align: left;
+  padding: 12px 16px;
+  color: #fff5e1;
+  text-decoration: none;
+  border-bottom: 1px solid #6f6c6b;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -38,10 +99,6 @@ body {
   color: #ff6b00;
   transform: scale(1.5);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.navbar i {
-  color: #fff;
 }
 
 .social-icons {
@@ -183,7 +240,6 @@ body {
 .resume {
   padding: 10px 12px 10px 12px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: bold;
   font-size: 17px;
   color: #fff;
   background-color: #ff6b00;
@@ -204,8 +260,7 @@ body {
   background-color: #ff6b00;
   border: none;
   padding: 20px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  font-style: bold;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #fff;
   margin-top: -10px;
@@ -216,8 +271,7 @@ body {
   background-color: #ff6b00;
   border: none;
   padding: 20px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  font-style: bold;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #fff;
   margin-top: -10px;
@@ -258,6 +312,18 @@ body {
   cursor: pointer;
 }
 
+.back a {
+  text-decoration: none;
+  color: #ff6b00;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.mobile-nav a:hover {
+  color: #ff6b00;
+}
+
 .social-icons li img:hover {
   color: #ff6b00;
 }
@@ -289,13 +355,20 @@ body {
   background-repeat: no-repeat;
   height: 237px;
   margin-top: 80px;
-  transition: transform 0, 3s ease-out;
 }
 
 .recent-works h2 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 32px;
-  color: #091e42;
+  color: #fff;
+  font-weight: 400;
+}
+
+.About h1 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-bottom: 10px;
   font-weight: 400;
 }
 
@@ -342,7 +415,6 @@ body {
 .projects-background:hover {
   cursor: pointer;
   transform: scale(1.01);
-  box-shadow: #1a1919;
 }
 
 .projects-background .para {
@@ -400,7 +472,6 @@ li {
   justify-content: center;
   color: #fff;
   font-family: 'InaiMathi', Arial, Helvetica, sans-serif;
-  font-style: bold;
   font-weight: 700;
   font-size: 22px;
   margin-left: -45px;
@@ -429,7 +500,6 @@ li {
 .Skills,
 .framework {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: bold;
   font-size: 32px;
   color: #fff;
   margin-left: -45px;
@@ -515,14 +585,6 @@ li {
 .back {
   margin-top: -20px;
   margin-left: 50px;
-}
-
-.back a {
-  text-decoration: none;
-  color: #ff6b00;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -640,11 +702,7 @@ li {
   }
 
   .About h1 {
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
     font-size: 72px;
-    color: #ff6b00;
-    margin-bottom: 10px;
-    font-weight: 400;
   }
 
   .flex {
@@ -680,8 +738,7 @@ li {
     background-color: #ff6b00;
     border: none;
     padding: 20px;
-    font-family: 'Inter' Arial, Helvetica, sans-serif;
-    font-style: bold;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: #fff;
     margin-top: 280px;
@@ -746,7 +803,6 @@ li {
   #bg6:hover {
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow: #1a1919;
   }
 
   .About {
@@ -848,7 +904,9 @@ li {
   #whitebg .para,
   .deco-img,
   .line,
-  .btn-ul li {
+  .btn-ul li,
+  .mobile-nav,
+  #open-menu {
     display: none;
   }
 
