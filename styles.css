@@ -15,6 +15,13 @@ body {
   display: none;
 }
 
+#title {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 #close-menu {
   border: none;
   color: #67798e;
@@ -62,6 +69,10 @@ body {
   left: 0;
 }
 
+.project1 {
+  padding: 0 24px 24px;
+}
+
 .mobile-nav a {
   display: block;
   width: 80%;
@@ -94,7 +105,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-brand:hover {
+
   cursor: pointer;
   color: #ff6b00;
   transform: scale(1.5);
@@ -133,6 +144,10 @@ body {
 
 .info {
   padding: 80px 24px 120px 24px;
+}
+
+.see-proj {
+  padding: 0 24px 24px 24px;
 }
 
 .intro {
@@ -216,6 +231,7 @@ body {
   padding: 10px 12px 10px 12px;
   background-color: rgba(255, 255, 255, 0.24);
   border: none;
+  margin-left: -8px;
 }
 
 .projects-btn:hover {
@@ -233,7 +249,6 @@ body {
   background-color: #fff;
   border: 1px solid;
   border-color: #8993a4;
-  margin-inline: 2px;
 }
 
 .see,
@@ -274,7 +289,7 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #fff;
-  margin-top: -10px;
+  margin-top: 20px;
 }
 
 .get-in-touch {
@@ -328,6 +343,15 @@ body {
   color: #ff6b00;
 }
 
+.projects-background h2,
+.projects-heading {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: -5px;
+}
+
 .first-page-deco-img {
   background-image: url('images/Illustration.png');
   background-repeat: no-repeat;
@@ -338,7 +362,7 @@ body {
 }
 
 .recent-works {
-  padding: 120px 24px 120px 24px;
+  padding: 120px 24px  24px;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -354,14 +378,16 @@ body {
   background-image: url('images/pic.png');
   background-repeat: no-repeat;
   height: 237px;
-  margin-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
-.recent-works h2 {
+.recent1 {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 32px;
-  color: #fff;
+  color: #091e42;
   font-weight: 400;
+  margin-top: -40px;
 }
 
 .About h1 {
@@ -380,17 +406,18 @@ body {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.recent-works p {
+.recentp {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #091e42;
+  width: 327px;
 }
 
 .languages {
   margin-left: -5px;
 }
 
-.languages ul {
+.langu {
   display: flex;
   list-style: none;
   padding-left: 0;
@@ -399,7 +426,7 @@ body {
 .projects-background {
   background-image: url('images/projects-background.png');
   background-repeat: no-repeat;
-  width: 100%;
+  width: 327px;
   height: 370px;
   margin-top: 24px;
 }
@@ -421,10 +448,6 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #fff;
-}
-
-.project-btn {
-  margin-left: -10px;
 }
 
 .project-btn ul,
@@ -587,10 +610,120 @@ li {
   margin-left: 50px;
 }
 
+.modal {
+  position: fixed;
+  top: 5%;
+  left: 63px;
+  transform: translate(-50px, -50px) scale(0);
+  width: 310px;
+  height: 718px;
+  transition: 200ms ease-in-out;
+  padding: 16px 16px 16px 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  z-index: 98;
+}
+
+.modal.active {
+  transform: translate(-50px, -50px) scale(1);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mod-header {
+  margin-top: 4px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+#mod-button {
+  background-color: #fff;
+  color: #67798e;
+  font-size: 25px;
+  border: none;
+  margin-top: 16px;
+}
+
+.mod-btn {
+  list-style: none;
+  padding: 12px;
+  border: 1px solid #dfe1e6;
+  background-color: transparent;
+  color: #3c3a39;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.mod-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff6b00;
+  transform: scale(1.05);
+}
+
+.mod-buttons {
+  display: flex;
+  margin-left: -44px;
+}
+
+.mod-para {
+  color: #344563;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.mod-btns {
+  list-style: none;
+  padding: 12px;
+  border: 1px solid #dfe1e6;
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.mod-btns:hover {
+  cursor: pointer;
+  background-color: #091e42;
+  transform: scale(1.05);
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 200ms ease-in-out;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 @media only screen and (max-width: 768px) {
   .Desktop-heading,
   #my,
-  .heading3 {
+  .heading3,
+  .mod-header1,
+  .first,
+  .mod-img1 {
     display: none;
   }
 }
@@ -639,6 +772,10 @@ li {
     margin-top: -50px;
   }
 
+  .recent-works {
+    padding: 120px;
+  }
+
   .bio {
     font-size: 20px;
   }
@@ -666,8 +803,8 @@ li {
     background-size: 49%;
   }
 
-  .recent-works {
-    padding: 250px 124px 100px 124px;
+  .recentp {
+    width: 100%;
   }
 
   .see {
@@ -675,15 +812,10 @@ li {
     width: 30%;
   }
 
-  .projects-background h2 {
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    color: #fff;
-  }
-
   .grid {
     display: grid;
-    grid-template-columns: 1.6fr 1.3fr;
+    grid-template-columns: 1fr 0.75fr;
+    padding: 0 120px;
   }
 
   .grid h2 {
@@ -699,6 +831,7 @@ li {
     background-image: url('images/gymnast.png');
     height: 448px;
     transition: transform 0.3s ease-out;
+    margin-top: -30px;
   }
 
   .About h1 {
@@ -720,9 +853,10 @@ li {
     margin-top: -20px;
   }
 
-  .grid-projects {
+  #grid-projects {
     display: grid;
     grid-template-columns: 0.75fr 0.75fr 0.86fr;
+    padding: 0 120px;
   }
 
   #whitebg {
@@ -741,7 +875,8 @@ li {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: #fff;
-    margin-top: 280px;
+    margin-top: 320px;
+    position: absolute;
   }
 
   #see-proj-btn:hover {
@@ -802,7 +937,8 @@ li {
   #bg5:hover,
   #bg6:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    background-image: url('images/whitebg.png');
   }
 
   .About {
@@ -906,15 +1042,18 @@ li {
   .line,
   .btn-ul li,
   .mobile-nav,
-  #open-menu {
+  #open-menu,
+  .mod-img,
+  .mod-header,
+  .p {
     display: none;
   }
 
-  .Desktop-heading {
-    margin-top: 110px;
+  #grid-projects h2 {
+    margin-top: 60px;
   }
 
-  .heading3 {
-    margin-top: 150px;
+  #b3 h2 {
+    margin-top: 210px;
   }
 }
