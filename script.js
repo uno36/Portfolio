@@ -21,28 +21,28 @@ menuItems.forEach((item) => {
 const cards = [
   {
     id: 1,
-    title2: 'Multi Post Stories',
-    title1: 'Keeping track of hundreds  of components website',
+    title2: 'Awesome Books',
+    title1: 'Keeping track of all the books in the database',
     title3: 'Profesional Art Printing Data',
     title4: 'Data Dashboard Healthcare',
     title5: 'Website Portfolio',
     title6: 'Profesional Art Printing Data More',
     tags: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    img1: 'images/Snapshoot-Portfolio.png',
-    img2: 'images/Snapshoot-Portfolio1.png',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    description3: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    img1: 'images/Awesome-books-app.png',
+    img2: 'images/Awesome-books-app.png',
+    description1: "The purpose of the application is to create a simple book storage system where users can add and remove books to a list that is stored in the browser's localStorage. The application is built using three classes: Book, Store, and UI. The Book class is a simple constructor that takes in a book title and author as arguments and assigns them to the title and author properties of the book object.",
+    description2: "the purpose of the application is to create a simple book storage system where users can add and remove books to a list that is stored in the browser's localStorage.The application is built using three classes: Book, Store, and UI.",
+    description3: "The Book class is a simple constructor that takes in a book title and author as arguments and assigns them to the title and author properties of the book object. The Store class contains static methods for getting the list of books from localStorage, adding a new book to the list in localStorage, and removing a book from the list in localStorage. The UI class contains static methods for displaying the list of books in the HTML page.",
     seelive: 'See live',
     seesource: 'See source',
   },
   {
     id: 2,
     title: 'My Recent Works',
-    img1: 'images/pic.png',
+    img1: 'images/Awesome-books-app.png',
     img2: 'images/gymnst.png',
-    heading: 'Multi-Post Stories',
-    description1: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    heading: 'Awesome Books App',
+    description1: "The purpose of the application is to create a simple book storage system where users can add and remove books to a list that is stored in the browser's localStorage. The application is built using three classes: Book, Store, and UI. The Book class is a simple constructor that takes in a book title and author as arguments and assigns them to the title and author properties of the book object.",
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     tags: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
     button: 'see project',
@@ -223,8 +223,8 @@ function popUpDisaplay(card) {
           <p class="p">${card.description1}</p>
 
             <ul class="mod-buttons" id="modal-btn">
-              <li><button class="mod-btns" type="button">${card.seelive} &nbsp  <img src="images/Icon.png" alt="icon"></button></li>
-              <li><button class="mod-btns" type="button">${card.seesource} &nbsp <img src="images/Icon2.png" alt="icon"></button></li>
+              <li><a href="https://uno36.github.io/Awesome-Books" target=_blank><button class="mod-btns" type="button">${card.seelive} &nbsp  <img src="images/Icon.png" alt="icon"></button></a></li>
+              <li><a href="https://github.com/uno36/Awesome-Books" target=_blank><button class="mod-btns" type="button">${card.seesource} &nbsp <img src="images/Icon2.png" alt="icon"></button></a></li>
           </ul>
       </div> 
       </div>
